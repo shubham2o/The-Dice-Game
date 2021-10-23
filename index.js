@@ -1,9 +1,9 @@
 var randomNumberPlayer1 = Math.floor(Math.random() * 6) + 1;
-var dicePlayer1 = "images/dice" + randomNumberPlayer1 + ".png";
+var dicePlayer1 = "/images/dice" + randomNumberPlayer1 + ".png";
 
 
 var randomNumberPlayer2 = Math.floor(Math.random() * 6) + 1;
-var dicePlayer2 = "images/dice" + randomNumberPlayer2 + ".png";
+var dicePlayer2 = "/images/dice" + randomNumberPlayer2 + ".png";
 
 
 var player1Name = prompt("Enter Player 1 name here⬇️");
