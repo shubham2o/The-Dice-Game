@@ -1,17 +1,17 @@
-var randomNumberPlayer1 = Math.floor(Math.random() * 6) + 1;
-var dicePlayer1 = "images/dice" + randomNumberPlayer1 + ".png";
-
-
-var randomNumberPlayer2 = Math.floor(Math.random() * 6) + 1;
-var dicePlayer2 = "images/dice" + randomNumberPlayer2 + ".png";
-
-
 var player1Name = prompt("Enter Player 1 name here⬇️");
 document.getElementById("player1").innerHTML = player1Name;
 
 
 var player2Name = prompt("Enter Player 2 name here⬇️");
 document.getElementById("player2").innerHTML = player2Name;
+
+
+var randomNumberPlayer1 = Math.floor(Math.random() * 6) + 1;
+var dicePlayer1 = "images/dice" + randomNumberPlayer1 + ".png";
+
+
+var randomNumberPlayer2 = Math.floor(Math.random() * 6) + 1;
+var dicePlayer2 = "images/dice" + randomNumberPlayer2 + ".png";
 
 
 if (randomNumberPlayer1 > randomNumberPlayer2) {
